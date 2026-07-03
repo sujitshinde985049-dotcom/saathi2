@@ -1,0 +1,22 @@
+export default function UsersPage() {
+  return (
+    <div className="p-6">
+      <div className="bg-white rounded-lg shadow p-6">
+        <h1 className="text-3xl font-bold mb-4">
+          User Management
+        </h1>
+
+        <p className="text-gray-600 mb-6">
+          Welcome to User Management Dashboard
+        </p>
+
+        <button
+          className="bg-blue-600 text-white px-4 py-2 rounded-lg"
+          onClick={() => alert("Add User feature coming soon")}
+        >
+          Add User
+        </button>
+      </div>
+    </div>
+  );
+}
